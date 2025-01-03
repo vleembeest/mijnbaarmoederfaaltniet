@@ -11,6 +11,7 @@ import { MatHeaderRow } from "@angular/material/table";
 import { BreakpointObserver, Breakpoints } from "@angular/cdk/layout";
 import { MatCard } from "@angular/material/card";
 import { MatNavList } from "@angular/material/list";
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -25,7 +26,8 @@ import { MatNavList } from "@angular/material/list";
     OoievaarComponent,
     MatHeaderRow,
     MatCard,
-    MatNavList
+    MatNavList,
+    TranslateModule
   ],
   standalone: true
 })

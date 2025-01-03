@@ -19,11 +19,11 @@
   background-color: var(--color-orange);
   height: 100%;
   width: 100%;
+  align-content: center;
+  justify-items: center;
 }
 
 .mbfn-text {
-  //grid-row-start: 1;
-  //grid-column: 2/span 2;
   max-width: 600px;
   margin: 3rem;
 }
@@ -31,7 +31,7 @@
 .book {
   background-color: white;
   border-radius: 10px;
-  margin: 3rem;
+  padding: 3px;
   width: 300px;
 }
 
