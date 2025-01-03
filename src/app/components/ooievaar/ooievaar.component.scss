@@ -2,6 +2,9 @@
   margin: 5px;
 }
 
+.ooievaar-container {
+  display: flex;
+}
 .image-column {
   padding-top: 0 !important;
   background-color: var(--color-blue);
@@ -15,6 +18,7 @@
 
 .ooievaar-text {
   max-width: 600px;
+
 }
 
 .max-image {

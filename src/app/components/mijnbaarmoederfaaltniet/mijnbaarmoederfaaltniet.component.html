@@ -17,8 +17,8 @@
       </div>
     </div>
   } @else {
-    <mat-grid-list cols="3">
-      <mat-grid-tile>
+    <div class="mbfn-container">
+      
         <div class="orange-column">
           <div class="book">
             <img alt="Mijn baarmoederfaaltniet" src="assets/mijnbaarmoederfaaltniet3d.jpg"/>
@@ -27,14 +27,13 @@
             </div>
           </div>
         </div>
-      </mat-grid-tile>
-      <mat-grid-tile colspan="2">
+      
         <div class="mbfn-text">
           <h3>{{ 'MBFT.HEADER1' | translate }}</h3>
           <h3>{{ 'MBFT.HEADER2' | translate }}</h3>
           <div [innerHTML]="'MBFT.TEXT' | translate"></div>
         </div>
-      </mat-grid-tile>
-    </mat-grid-list>
+
+    </div>
   }
 </mat-card>

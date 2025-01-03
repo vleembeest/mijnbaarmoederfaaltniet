@@ -7,7 +7,6 @@
 
 .mbfn-container {
   display: flex;
-
 }
 
 .mbfn-small-container {
@@ -17,8 +16,7 @@
 .orange-column {
   border-radius: 10px;
   background-color: var(--color-orange);
-  height: 100%;
-  width: 100%;
+  width: 33%;
   align-content: center;
   justify-items: center;
 }

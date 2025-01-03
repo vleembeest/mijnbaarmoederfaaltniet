@@ -10,16 +10,14 @@
       </div>
     </div>
   } @else {
-    <mat-grid-list cols="3">
-      <mat-grid-tile colspan="2">
+    <div class="ooievaar-container">
         <div class="ooievaar-text">
           <h2>{{ 'OOIEVAAR.TITLE' | translate }}</h2>
           <div [innerHTML]="'OOIEVAAR.TEXT' | translate"></div>
         </div>
-      </mat-grid-tile>
-      <mat-grid-tile class="image-column">
+      <div class="image-column">
         <img class="max-image" alt="Astrid Vleeming-Peters" src="assets/ooievaar lijnen-portrait.png"/>
-      </mat-grid-tile>
-    </mat-grid-list>
+      </div>
+    </div>
   }
 </mat-card>
