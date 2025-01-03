@@ -1,0 +1,24 @@
+.card {
+  margin: 5px;
+  background-color: var(--color-blue);
+}
+
+.title {
+  margin: auto;
+  color: white;
+}
+
+.reactie {
+  background-color: white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.reactie-tekst {
+  margin: 10px;
+  color: var(--color-orange)
+}
+
+.reactie-naam {
+  margin: 10px;
+}

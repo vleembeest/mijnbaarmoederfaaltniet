@@ -1,0 +1,14 @@
+.no-ruler {
+  border-top-style: none;
+}
+
+.header {
+  color: var(--color-blue);
+  margin: auto;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.header-container {
+  display: flex;
+}

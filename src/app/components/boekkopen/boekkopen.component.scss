@@ -1,0 +1,53 @@
+.card {
+  margin: 5px;
+}
+
+.title {
+  margin: auto;
+}
+
+.title-subtext {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  padding-left: 10px;
+  position: relative;
+  top: -30px
+}
+
+.image-mini {
+  padding-left: 10px;
+  position: relative;
+  top: 0px
+}
+
+.reactie {
+  background-color: white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.reactie-tekst {
+  margin: 10px;
+  color: var(--color-orange)
+}
+
+.reactie-naam {
+  margin: 10px;
+}
+
+.image-small {
+  max-width: 150px;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.padding-bottom-10 {
+  padding-bottom: 10px;
+}

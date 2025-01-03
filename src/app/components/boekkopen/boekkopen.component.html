@@ -1,0 +1,55 @@
+<mat-card class="card">
+
+  <h1 class="title">{{ 'BOEKKOPEN.TITLE' | translate }}</h1>
+  <div class="title-subtext">
+    <div class=>
+      {{ 'BOEKKOPEN.TEXT' | translate }}
+    </div>
+    @if (screenSize() === 'xsmall') {
+      <img alt="Mijn baarmoeder faalt niet" class="image-mini" src="assets/Mijn baarmoeder faalt niet-MINI.jpg">
+    } @else {
+      <img alt="Mijn baarmoeder faalt niet" class="image" src="assets/Mijn baarmoeder faalt niet-MINI.jpg">
+    }
+  </div>
+  @if (screenSize() === 'xsmall') {
+    <div class="margin-auto">
+      <div class="padding-bottom-10">
+        <a href="https://uitgeverijoorsprong.nl/winkel/?auteur=astrid-vleeming">
+          <img class="image-small" alt="Mijn baarmoeder faalt niet bij uitgeverij oorsprong"
+               src="assets/uitgeverijoorsprong.png">
+        </a>
+      </div>
+      <div class="padding-bottom-10">
+        <a href="https://www.bruna.nl/boeken/mijn-baarmoeder-faalt-niet-9789461013828">
+          <img class="image-small" alt="Mijn baarmoeder faalt niet bij uitgeverij oorsprong" src="assets/bruna.svg"
+               style="min-width: 130px">
+        </a>
+      </div>
+      <div class="padding-bottom-10">
+        <a href="https://libris.nl/a/astrid-vleeming/mijn-baarmoeder-faalt-niet/501520491#paperback-9789461013828">
+          <img class="image-small" alt="Mijn baarmoeder faalt niet bij uitgeverij oorsprong" src="assets/libris.svg">
+        </a>
+      </div>
+    </div>
+
+  } @else {
+    <mat-grid-list cols="3" rowHeight="100">
+      <mat-grid-tile>
+        <a href="https://uitgeverijoorsprong.nl/winkel/?auteur=astrid-vleeming">
+          <img alt="Mijn baarmoeder faalt niet bij uitgeverij oorsprong" src="assets/uitgeverijoorsprong.png">
+        </a>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <a href="https://www.bruna.nl/boeken/mijn-baarmoeder-faalt-niet-9789461013828">
+          <img alt="Mijn baarmoeder faalt niet bij uitgeverij oorsprong" src="assets/bruna.svg"
+               style="min-width: 130px">
+        </a>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <a href="https://libris.nl/a/astrid-vleeming/mijn-baarmoeder-faalt-niet/501520491#paperback-9789461013828">
+          <img alt="Mijn baarmoeder faalt niet bij uitgeverij oorsprong" src="assets/libris.svg">
+        </a>
+      </mat-grid-tile>
+    </mat-grid-list>
+  }
+</mat-card>

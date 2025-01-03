@@ -1,0 +1,45 @@
+.card {
+  margin: 5px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.mbfn-container {
+  display: flex;
+
+}
+
+.mbfn-small-container {
+  display: initial;
+}
+
+.orange-column {
+  border-radius: 10px;
+  background-color: var(--color-orange);
+  height: 100%;
+  width: 100%;
+}
+
+.mbfn-text {
+  //grid-row-start: 1;
+  //grid-column: 2/span 2;
+  max-width: 600px;
+  margin: 3rem;
+}
+
+.book {
+  background-color: white;
+  border-radius: 10px;
+  margin: 3rem;
+  width: 300px;
+}
+
+.socials {
+  margin-left: 10px;
+}
+
+.socials-container {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,15 @@
+<mat-card class="card" title="Reacties">
+
+  <h1 class="title">{{ 'REACTIES.TITLE' | translate }}</h1>
+  <carousel [autoPlay]="true" [counter]="false" [displayAutoPlayControls]="false" [slideToShow]="1">
+    @for (reactie of reviews; track reactie.name) {
+      <div class="carousel-slide reactie">
+        <div class="reactie-tekst">{{ reactie.review }}</div>
+        <mat-divider></mat-divider>
+        <div class="reactie-header">
+          <div class="reactie-naam">{{ reactie.name }}</div>
+        </div>
+      </div>
+    }
+  </carousel>
+</mat-card>

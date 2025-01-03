@@ -1,0 +1,29 @@
+<mat-card class="card">
+  @if (screenSize() === 'xsmall') {
+    <div>
+      <div class="overmij-text">
+        <h1>{{ 'OVERMIJ.HEADER1' | translate }}</h1>
+        <h2>{{ 'OVERMIJ.HEADER2' | translate }}</h2>
+        <div [innerHTML]="'OVERMIJ.TEXT' | translate"></div>
+        <app-socials [light]="true" class="socials"></app-socials>
+      </div>
+      <div class="image-column">
+        <img alt="Astrid Vleeming-Peters" class="overmij-image" src="assets/overmij.jpg"/>
+      </div>
+    </div>
+  } @else {
+    <mat-grid-list cols="3">
+      <mat-grid-tile colspan="2">
+        <div class="overmij-text">
+          <h1>{{ 'OVERMIJ.HEADER1' | translate }}</h1>
+          <h2>{{ 'OVERMIJ.HEADER2' | translate }}</h2>
+          <div [innerHTML]="'OVERMIJ.TEXT' | translate"></div>
+          <app-socials [light]="true" class="socials"></app-socials>
+        </div>
+      </mat-grid-tile>
+      <mat-grid-tile class="image-column">
+        <img alt="Astrid Vleeming-Peters" class="overmij-image" src="assets/overmij.jpg"/>
+      </mat-grid-tile>
+    </mat-grid-list>
+  }
+</mat-card>
