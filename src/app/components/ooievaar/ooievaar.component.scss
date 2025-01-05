@@ -7,7 +7,7 @@
 }
 .image-column {
   background-color: var(--color-blue);
-  height: 100%;
+  height: inherit;
   border-radius: 10px;
   left: calc(66.6667% + 0.666667px);
   width: calc(33.3333% - 0.666667px);
