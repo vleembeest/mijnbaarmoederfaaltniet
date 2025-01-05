@@ -1,9 +1,11 @@
 <div>
+  @if (sizeSignal() !== 'xsmall') {
   <div class="header-container">
     <div class="header">
       {{ 'APP.TITLE' | translate }}
     </div>
   </div>
+  }
   <div>
     <app-mijn-baarmoeder-faalt-niet [screenSize]="sizeSignal()"></app-mijn-baarmoeder-faalt-niet>
     <mat-divider class="no-ruler"></mat-divider>

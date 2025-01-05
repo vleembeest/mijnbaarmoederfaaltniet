@@ -2,7 +2,7 @@
 
   @if (screenSize() === 'xsmall') {
     <div class="mbfn-small-container">
-      <div class="orange-column">
+      <div class="orange-column-small">
         <div class="book">
           <img alt="Mijn baarmoederfaaltniet" src="assets/mijnbaarmoederfaaltniet3d.jpg"/>
           <div class="socials-container">
@@ -18,7 +18,6 @@
     </div>
   } @else {
     <div class="mbfn-container">
-      
         <div class="orange-column">
           <div class="book">
             <img alt="Mijn baarmoederfaaltniet" src="assets/mijnbaarmoederfaaltniet3d.jpg"/>
@@ -28,10 +27,12 @@
           </div>
         </div>
       
-        <div class="mbfn-text">
+        <div class="mbfn-column">
+          <div class="mbfn-text">
           <h3>{{ 'MBFT.HEADER1' | translate }}</h3>
           <h3>{{ 'MBFT.HEADER2' | translate }}</h3>
           <div [innerHTML]="'MBFT.TEXT' | translate"></div>
+          </div>
         </div>
 
     </div>

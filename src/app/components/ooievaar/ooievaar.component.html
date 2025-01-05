@@ -5,15 +5,17 @@
         <h2>{{ 'OOIEVAAR.TITLE' | translate }}</h2>
         <div [innerHTML]="'OOIEVAAR.TEXT' | translate"></div>
       </div>
-      <div class="image-column">
+      <div class="image-column-small">
         <img class="max-image transparent" alt="Astrid Vleeming-Peters" src="assets/ooievaar.png"/>
       </div>
     </div>
   } @else {
     <div class="ooievaar-container">
-        <div class="ooievaar-text">
+        <div class="ooievaar-column">
+          <div class="ooievaar-text">
           <h2>{{ 'OOIEVAAR.TITLE' | translate }}</h2>
           <div [innerHTML]="'OOIEVAAR.TEXT' | translate"></div>
+          </div>
         </div>
       <div class="image-column">
         <img class="max-image" alt="Astrid Vleeming-Peters" src="assets/ooievaar lijnen-portrait.png"/>

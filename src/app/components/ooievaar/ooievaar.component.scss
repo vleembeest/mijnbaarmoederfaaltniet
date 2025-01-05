@@ -6,19 +6,39 @@
   display: flex;
 }
 .image-column {
-  padding-top: 0 !important;
   background-color: var(--color-blue);
   height: 100%;
   border-radius: 10px;
+  left: calc(66.6667% + 0.666667px);
+  width: calc(33.3333% - 0.666667px);
+  margin-top: 0px;
+}
+
+.image-column-small {
+  background-color: var(--color-blue);
+  height: 100%;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 0px;
 }
 
 .transparent {
   opacity: 0.3;
 }
 
+.ooievaar-column {
+  left: 0px;
+  width: calc(66.6667% - 0.333333px);
+  margin-top: 0px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 50px;
+}
+
 .ooievaar-text {
   max-width: 600px;
-
+  margin: 3rem;
 }
 
 .max-image {
